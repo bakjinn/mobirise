@@ -25,9 +25,12 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.5",
     "siteFonts": [],
-    "uniqCompNum": 8,
+    "uniqCompNum": 9,
     "versionPublish": "4.9.5",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "",
+    "noImageResize": "",
+    "firebaseSnippet": "<script src=\"https://www.gstatic.com/firebasejs/4.2.0/firebase.js\"></script>\r\n<script>\r\n  // Initialize Firebase\r\n  // TODO: Replace with your project's customized code snippet\r\n  var config = {\r\n    apiKey: \"<API_KEY>\",\r\n    authDomain: \"<PROJECT_ID>.firebaseapp.com\",\r\n    databaseURL: \"https://<DATABASE_NAME>.firebaseio.com\",\r\n    storageBucket: \"<BUCKET>.appspot.com\",\r\n    messagingSenderId: \"<SENDER_ID>\",\r\n  };\r\n  firebase.initializeApp(config);\r\n</script>"
   },
   "pages": {
     "index.html": {
@@ -199,6 +202,32 @@
           ],
           "_name": "footer1",
           "_anchor": "footer1-7"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "articlesNumber": 10,
+            "showFullArticle": true,
+            "showArticleAuthorName": true,
+            "showArticleAuthorImage": true,
+            "showArticleDate": true,
+            "dateFormat": "dd Mmm, yyyy",
+            "showSideBar": true,
+            "panelColor": "#ccc",
+            "articlePage": "article.html",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgColor": "#fff"
+          },
+          "title": "Blog posts",
+          "caption": "<p>Mobirise firebase plugin allows for you to connect to Firebase web application easily, and provides other functionalities. This particular block lists all of the articles from the realtime database.</p>",
+          "alias": "firebase-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "firebase-blog-list-block",
+          "_anchor": "firebase-blog-list-block-8"
         }
       ]
     }
